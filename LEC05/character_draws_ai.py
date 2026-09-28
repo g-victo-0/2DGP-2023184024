@@ -51,3 +51,10 @@ def draw_rectangle():
     move_line(750, 550, 750, 50)
     move_line(750, 50, 50, 50)
     move_line(50, 50, 50, 550)
+
+
+def draw_triangle():
+    print('TRIANGLE')
+    move_line(400, 550, 650, 100)
+    move_line(650, 100, 150, 100)
+    move_line(150, 100, 400, 550)
