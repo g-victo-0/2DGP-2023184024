@@ -14,4 +14,7 @@ def draw_character(x,y):
 
 def draw_circle():
     print("CIRCLE")
+
+    for degree in range(0,360,5):
+        pass
     pass
