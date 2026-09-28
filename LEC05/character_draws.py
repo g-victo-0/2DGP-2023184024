@@ -22,11 +22,6 @@ def draw_circle():
         draw_character(x,y)
     pass
 
-
-def draw_triangle():
-    print('TRIANGLE')
-    pass
-
 def move_top():
     print('TOP')
     for x in range(50,750,5):
@@ -56,4 +51,14 @@ def draw_rectangle():
     move_bottom()
     move_left()
 
+    pass
+
+
+def draw_triangle():
+    print('TRIANGLE')
+
+    for i in range(0, 101):
+        x = 400 + 2.5 * i
+        y = 550 - 4.5 * i
+        draw_character(x, y)
     pass
