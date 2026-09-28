@@ -42,3 +42,9 @@ def move_left():
     for y in range(50,550,5):
         draw_character(50,y)
     pass
+
+
+def draw_rectangle():
+    print('RECTANGLE')
+
+    pass
