@@ -16,5 +16,5 @@ def draw_circle():
     print("CIRCLE")
 
     for degree in range(0,360,5):
-        pass
+        radian = math.radians(degree)
     pass
