@@ -21,3 +21,7 @@ def draw_circle():
         y = 300 + 200 * math.sin(radian)
         draw_character(x,y)
     pass
+
+def move_top():
+    print('TOP')
+    pass
