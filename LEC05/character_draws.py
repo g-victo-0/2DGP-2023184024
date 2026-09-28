@@ -17,4 +17,5 @@ def draw_circle():
 
     for degree in range(0,360,5):
         radian = math.radians(degree)
+        x = 400 + 200 * math.cos(radian)
     pass
