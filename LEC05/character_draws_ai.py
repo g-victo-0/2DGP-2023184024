@@ -58,3 +58,19 @@ def draw_triangle():
     move_line(400, 550, 650, 100)
     move_line(650, 100, 150, 100)
     move_line(150, 100, 400, 550)
+
+
+def main():
+    initialize()
+
+    try:
+        while True:
+            draw_circle()
+            draw_rectangle()
+            draw_triangle()
+    finally:
+        close_canvas()
+
+
+if __name__ == '__main__':
+    main()
