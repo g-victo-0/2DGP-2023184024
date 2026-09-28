@@ -37,3 +37,6 @@ def move_bottom():
     for x in range(750,50,-5):
         draw_character(x,50)
     pass
+def move_left():
+    print('LEFT')
+    pass
