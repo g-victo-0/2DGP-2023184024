@@ -22,6 +22,11 @@ def draw_circle():
         draw_character(x,y)
     pass
 
+
+def draw_triangle():
+    print('TRIANGLE')
+    pass
+
 def move_top():
     print('TOP')
     for x in range(50,750,5):
