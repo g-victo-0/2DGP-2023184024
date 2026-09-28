@@ -15,3 +15,10 @@ def initialize():
     open_canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
     image_path = os.path.join(os.path.dirname(__file__), 'character.png')
     character = load_image(image_path)
+
+
+def draw_character(x, y):
+    clear_canvas()
+    character.draw(x, y)
+    update_canvas()
+    delay(FRAME_DELAY)
