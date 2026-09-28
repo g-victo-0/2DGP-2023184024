@@ -70,3 +70,10 @@ def draw_triangle():
         y = 100 + 4.5 * i
         draw_character(x, y)
     pass
+
+
+while True:
+    draw_circle()
+    draw_rectangle()
+    draw_triangle()
+    break
