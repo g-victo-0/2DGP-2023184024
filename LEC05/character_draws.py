@@ -61,4 +61,7 @@ def draw_triangle():
         x = 400 + 2.5 * i
         y = 550 - 4.5 * i
         draw_character(x, y)
+
+    for x in range(650, 149, -5):
+        draw_character(x, 100)
     pass
