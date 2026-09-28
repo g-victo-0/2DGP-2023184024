@@ -48,5 +48,6 @@ def draw_rectangle():
     print('RECTANGLE')
     move_top()
     move_right()
+    move_bottom()
 
     pass
