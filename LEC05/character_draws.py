@@ -11,3 +11,7 @@ def draw_character(x,y):
     character.draw(x, y)
     update_canvas()
     delay(0.05)
+
+def draw_circle():
+    print("CIRCLE")
+    pass
