@@ -19,4 +19,5 @@ def draw_circle():
         radian = math.radians(degree)
         x = 400 + 200 * math.cos(radian)
         y = 300 + 200 * math.sin(radian)
+        draw_character(x,y)
     pass
