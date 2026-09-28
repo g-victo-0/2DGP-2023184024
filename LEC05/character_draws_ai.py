@@ -30,3 +30,16 @@ def move_line(start_x, start_y, end_x, end_y, steps=100):
         x = start_x + (end_x - start_x) * ratio
         y = start_y + (end_y - start_y) * ratio
         draw_character(x, y)
+
+
+def draw_circle():
+    print('CIRCLE')
+    center_x = 400
+    center_y = 300
+    radius = 200
+
+    for degree in range(0, 360, 5):
+        radian = math.radians(degree)
+        x = center_x + radius * math.cos(radian)
+        y = center_y + radius * math.sin(radian)
+        draw_character(x, y)
