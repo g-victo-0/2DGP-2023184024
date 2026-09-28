@@ -43,3 +43,11 @@ def draw_circle():
         x = center_x + radius * math.cos(radian)
         y = center_y + radius * math.sin(radian)
         draw_character(x, y)
+
+
+def draw_rectangle():
+    print('RECTANGLE')
+    move_line(50, 550, 750, 550)
+    move_line(750, 550, 750, 50)
+    move_line(750, 50, 50, 50)
+    move_line(50, 50, 50, 550)
