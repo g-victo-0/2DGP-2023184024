@@ -72,3 +72,4 @@ def play_animation(name, frames):
     for repeat in range(REPEAT_COUNT):
         for frame in frames:
             draw_frame(frame)
+    delay(PAUSE_TIME)
