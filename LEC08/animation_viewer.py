@@ -73,3 +73,7 @@ def play_animation(name, frames):
         for frame in frames:
             draw_frame(frame)
     delay(PAUSE_TIME)
+
+
+while True:
+    pass
