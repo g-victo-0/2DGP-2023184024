@@ -65,3 +65,7 @@ def draw_frame(frame):
                            CENTER_X, CENTER_Y, draw_width, draw_height)
     update_canvas()
     delay(FRAME_DELAY)
+
+
+def play_animation(name, frames):
+    print(name)
