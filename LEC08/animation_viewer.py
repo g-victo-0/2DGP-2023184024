@@ -61,3 +61,5 @@ def draw_frame(frame):
     draw_width = int(width * SCALE)
     draw_height = int(height * SCALE)
     clear_canvas()
+    sprite_sheet.clip_draw(x, y, width, height,
+                           CENTER_X, CENTER_Y, draw_width, draw_height)
