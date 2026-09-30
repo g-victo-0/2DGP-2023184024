@@ -76,4 +76,5 @@ def play_animation(name, frames):
 
 
 while True:
-    pass
+    for index in range(len(animations)):
+        pass
