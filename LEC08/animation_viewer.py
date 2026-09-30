@@ -59,3 +59,4 @@ animation_names = ['WALK', 'RUN', 'JUMP', 'ATTACK']
 def draw_frame(frame):
     x, y, width, height = frame
     draw_width = int(width * SCALE)
+    draw_height = int(height * SCALE)
