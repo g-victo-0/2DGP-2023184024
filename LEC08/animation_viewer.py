@@ -60,3 +60,4 @@ def draw_frame(frame):
     x, y, width, height = frame
     draw_width = int(width * SCALE)
     draw_height = int(height * SCALE)
+    clear_canvas()
