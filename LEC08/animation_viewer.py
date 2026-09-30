@@ -54,3 +54,7 @@ attack_frames = [
 
 animations = [walk_frames, run_frames, jump_frames, attack_frames]
 animation_names = ['WALK', 'RUN', 'JUMP', 'ATTACK']
+
+
+def draw_frame(frame):
+    x, y, width, height = frame
