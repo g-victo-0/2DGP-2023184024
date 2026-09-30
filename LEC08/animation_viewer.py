@@ -51,3 +51,5 @@ attack_frames = [
     (1106, 15, 196, 255),
     (1309, 15, 170, 224)
 ]
+
+animations = [walk_frames, run_frames, jump_frames, attack_frames]
